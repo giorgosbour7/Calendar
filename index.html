@@ -1,0 +1,152 @@
+<html>
+<head>
+    <link rel=" stylesheet" href="css/calendar.css">
+	
+
+    <!-- Bootstrap CSS -->
+	<link rel=" stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootmin.js" ></script>
+	<script src="js/jquery-3.6.0.min.js"></script>
+
+<title> Welcome to our Calendar</title>
+</head>
+<body>
+
+
+
+<!--  Remain Empty  -->
+<div class="container divheight">
+  <div class="row">
+    <div class="col">
+
+    </div>
+    <div class="col-6">
+
+    </div>
+    <div class="col">
+      
+    </div>
+  </div>
+</div>
+<!--  Remain Empty-->
+
+<div class="container ">
+  <div class="row ">
+    <div class="col ">
+
+    </div>
+	
+	
+	
+	
+	<!--  Main Div -->
+    <div class="col-8">
+	    <div class="container ">
+        <div class="row divheight2">
+		
+		
+<div class="col"><button class="btn btn-info" id="back" onclick=backmonth()> Previous </button></div> 	
+<div class="col " id="mhnas"></div>
+<div class="col"><button class="btn btn-info" id="back" onclick=nextmonth()> Next </button></div>
+
+</div>
+</div>
+
+<!--  WEEKDAYS-->
+		<div class="container">
+        <div class="row">
+            <div class="col boxes weekdays">Monday</div><div class="col boxes weekdays">Tuesday</div><div class="col boxes weekdays">Wednesday</div><div class="col boxes weekdays">Thursday</div><div class="col boxes weekdays">Friday</div><div class="col boxes weekdays">Saturday</div><div class="col boxes weekdays">Sunday</div>
+		</div>
+		</div>
+   <!--  WEEKDAYS-->
+   <div class="container">
+        <div class="row">
+		   <div class="col boxes" id ="box1">1</div>
+		   <div class="col boxes" id ="box2">2</div>
+		   <div class="col boxes" id ="box3">3</div>
+		   <div class="col boxes" id ="box4">4</div>
+		   <div class="col boxes" id ="box5">5</div>
+		   <div class="col boxes" id ="box6">6</div>
+		   <div class="col boxes" id ="box7">7</div>
+		   <div class="w-100"></div>
+		   
+		   <div class="col boxes" id ="box8">1</div>
+		   <div class="col boxes" id ="box9">2</div>
+		   <div class="col boxes" id ="box10">3</div>
+		   <div class="col boxes" id ="box11">4</div>
+		   <div class="col boxes" id ="box12">5</div>
+		   <div class="col boxes" id ="box13">6</div>
+		   <div class="col boxes" id ="box14">7</div>
+		   <div class="w-100"></div>
+		   
+		   <div class="col boxes" id ="box15">1</div>
+		   <div class="col boxes" id ="box16">2</div>
+		   <div class="col boxes" id ="box17">3</div>
+		   <div class="col boxes" id ="box18">4</div>
+		   <div class="col boxes" id ="box19">5</div>
+		   <div class="col boxes" id ="box20">6</div>
+		   <div class="col boxes" id ="box21">7</div>
+		   <div class="w-100"></div>
+		   
+		   <div class="col boxes" id ="box22">1</div>
+		   <div class="col boxes" id ="box23">2</div>
+		   <div class="col boxes" id ="box24">3</div>
+		   <div class="col boxes" id ="box25">4</div>
+		   <div class="col boxes" id ="box26">5</div>
+		   <div class="col boxes" id ="box27">6</div>
+		   <div class="col boxes" id ="box28">7</div>
+		   <div class="w-100"></div>
+		   
+           <div class="col boxes" id ="box29">1</div>
+		   <div class="col boxes" id ="box30">2</div>
+		   <div class="col boxes" id ="box31">3</div>
+		   <div class="col boxes" id ="box32">4</div>
+		   <div class="col boxes" id ="box33">5</div>
+		   <div class="col boxes" id ="box34">6</div>
+		   <div class="col boxes" id ="box35">7</div>
+		   <div class="w-100"></div>
+		   
+		   <div class="col boxes" id ="box36">1</div>
+		   <div class="col boxes" id ="box37">2</div>
+		   <div class="col boxes" id ="box38">3</div>
+		   <div class="col boxes" id ="box39">4</div>
+		   <div class="col boxes" id ="box40">5</div>
+		   <div class="col boxes" id ="box41">6</div>
+		   <div class="col boxes" id ="box42">7</div>
+		   <div class="w-100"></div>
+		   
+        </div>
+    </div>
+</div>
+
+	<!--  End Main Div -->
+    <div class="col">
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    
+	<label for="event"><b>Event</b></label>
+    <input type="text" placeholder="Enter Your scheduled Event" name="event" id="event" required> <br><br>
+	
+	<label for="eventdes"><b>Event Description</b></label>
+    <input type="text" placeholder="Description" name="eventdes" id="eventdes" required> <br><br>
+	
+	<button class="col-2" onclick=Close();>Close</button> <button id="markos" class="col-2">Save</button>
+  </div>
+
+</div>
+
+
+<script src="js/calendar.js"></script>
+
+</body>
+</html>
